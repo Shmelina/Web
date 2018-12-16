@@ -1,0 +1,172 @@
+#container {
+    height: 750px;
+    margin: auto;
+    width: 100%;
+    border: 1px solid #005500;
+    background-color: black;
+}
+
+html,body{
+	margin: 0;
+	padding: 0;
+}
+
+#nav {
+    border-bottom: 1px solid #005500;
+    float: right;
+    width: 70.05%;
+    height: auto;
+}
+
+#nav ul li a:hover:not(.active) {
+    background-color: black;
+}
+
+.active {
+    background-color: #005500;
+}
+
+
+#header a{
+    text-decoration: none;
+    color: #00ff00;
+    border-bottom: 1px solid #005500;
+    border-right: 1px solid #005500;
+    float: left;
+    width: 29.8%;
+    height: auto;
+}
+#RTX1 {
+    float: right;
+    width: auto;
+}
+#content {
+    text-align: left;
+    float: right;
+    height: 650px;
+    width: 70%;
+}
+#sidebar {
+    color: #00ff00;
+    border-right: 1px solid #005500;
+    float: left;
+    width: 29.8%;
+    height: 650px;
+}
+
+#footer {
+    padding-left: 5px;
+    border-top: 1px solid #005500;
+    float: left;
+    width: 100%;
+    height: 45px;
+}
+
+#nav ul{
+	margin: 0 auto;
+	padding: 2px 0 0 0;
+	text-align: center;
+	width: 100%;
+}
+
+ul li{
+	list-style-type:none;
+	margin: 0;
+	padding: 3px 0;
+	display: inline;
+}
+
+#nav ul li a{
+	padding: 0 20px;
+	line-height: 40px;
+	color:#00ff00;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+#footer a {
+    text-decoration: none;
+    color: #00ff00;
+    margin-top: 10px;
+    display: inline-block;
+    font-weight: bold;
+    font-size: 110%;
+}
+
+#nav ul li a:hover, #nav ul li a:active, #footer a:hover, #footer a:active, #header a:active, #header a:hover{
+    color: #007700;
+}
+
+#header{
+	text-align: center;
+	font-size: 2.35em;
+	color: #00ff00;
+	line-height: 1.1em;
+	letter-spacing: -0.04em;
+}
+
+
+h2{
+	font-size: 1.7em;
+	font-weight: bold;
+	color: #00ff00;
+	margin: 10px;
+}
+
+h3 {
+    font-size: 1.3em;
+    color: #aaaaaa;
+    font-weight: bold;
+}
+
+h4 {
+    font-size: 1em;
+    font-weight: normal;
+    color: #aaaaaa;
+}
+
+h5 {
+    font-size: 2em;
+    font-weight: bold;
+    color: #00ff00;
+    margin: 10px;
+}
+
+h6 {
+    font-weight: normal;
+    font-size: 1.2em;
+    color: #aaaaaa;
+}
+
+#sidebar ul li {
+    font-size: 1em;
+}
+
+#content Li {
+    text-decoration: none;
+    padding: 10px 0 10px 40px;
+    display: block;
+    color: #aaaaaa;
+    font-size: 103%;
+    border-bottom: 1px dotted #005500;
+}
+
+#content Li div p {
+    font-size: 0.7em;
+    font-weight: normal;
+    color: #aaaaaa;
+}
+
+#sidebar div a{
+    text-align: left;
+    text-decoration: none;
+    color: #aaaaaa;
+}
+
+h1 a {
+    font-size: 0.5em;
+    font-weight: normal;
+    text-decoration: none;
+    color: #aaaaaa;
+}
